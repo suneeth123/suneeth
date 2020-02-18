@@ -7,7 +7,7 @@ JSON EXAMPLE</title>
  function Test()
  {
    var ajax= new XMLHttpRequest();
-   ajax.open{"get",};
+   ajax.open{"get","https://raw.githubusercontent.com/suneeth123/suneeth/master/sun.json"};
    {
    ajax.onload=function(){
     console.log(ajax.responseText)
