@@ -1,0 +1,25 @@
+
+<html>
+<head>
+<title>
+JSON EXAMPLE</title>
+<script>
+ function Test()
+ {
+   var ajax= new XMLHttpRequest();
+   ajax.open{"get",};
+   {
+   ajax.onload=function(){
+    console.log(ajax.responseText)
+    }
+ajax.onerror= function(){
+alert("connection fail");
+}
+ajax.send();
+</script>
+</head>
+<body>
+ <input type="button" value="getjson" onclick="Test():">
+ <p id="result"></p>
+ </body>
+ </html>
